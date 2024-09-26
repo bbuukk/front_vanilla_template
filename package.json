@@ -1,0 +1,35 @@
+{
+  "name": "vanilla_template",
+  "version": "0.0.1",
+  "description": "Template for Vanilla.js front-end application with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --watch \"./cfg/webpack/webpack.*.*\" --exec \"npm run start\"",
+    "build": "webpack --config ./cfg/webpack/webpack.common.js",
+    "start": "webpack-dev-server --open --config ./cfg/webpack/webpack.common.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbuukk/front_vanilla_template.git"
+  },
+  "keywords": [
+    "webpack",
+    "template",
+    "front-end",
+    "vanilla.js"
+  ],
+  "author": "https://github.com/bbuukk",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bbuukk/front_vanilla_template/issues"
+  },
+  "homepage": "https://github.com/bbuukk/front_vanilla_template#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "browserslist": [
+    "last 2 years",
+    "> 1%",
+    "not dead"
+  ]
+}
