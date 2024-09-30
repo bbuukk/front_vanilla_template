@@ -30,6 +30,7 @@
     "> 1%",
     "not dead"
   ],
+  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "clean-webpack-plugin": "^4.0.0",
